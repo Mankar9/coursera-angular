@@ -13,7 +13,6 @@ function LunchCheckController($scope) {
   $scope.checkTooMuch = function () {
 
     var dishNumber = countDishes($scope.dishes);
-    $scope.color = "green";
 
     if (dishNumber == 0) {
         $scope.message = "Please enter data first";
